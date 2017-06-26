@@ -1,0 +1,40 @@
+body {
+  background: #0abf06;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-intro {
+  font-size: large;
+margin-left: 50px;
+margin-right: 50px;
+
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.lbgif {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+.playbutton {
+	
+	 position: 'absolute';
+    zIndex: 1000;
+    background-color: red;
+	width: 100px;
+	height: 50px;
+	margin-top: -600px;
+}
