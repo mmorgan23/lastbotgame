@@ -8,8 +8,12 @@
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheet.css">
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -27,8 +31,83 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+    <br>
 
-    <center><h1>HEllo</h1></center>
+   <center><div id="forms">
+
+    <!--<div class="formone">
+      </<form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse"><br><br>
+        <input type="submit" value="PLAY">
+      </form>
+    </div>
+
+    <div class="formtwo">
+        </<form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey"><br>
+        Last name:<br>
+        <input type="text" name="lastname" value="Mouse"><br><br>
+        <input type="submit" value="PLAY">
+      </form>
+    </div>-->
+
+
+    </div></center>
+
+    <center><h2 id="play">"Hey, Login or Sign Up required to play... See below."</h2></center>
+    <br>
+
+<center><div id="formcontainer">
+
+ <div class="container2">  
+      <form id="contact" action="" method="post">
+          <center><h3>Login</h3></center>
+            <fieldset>
+              <input placeholder="Enter username" type="text2" tabindex="1" required autofocus>
+            </fieldset>
+               <fieldset>
+              <input placeholder="Enter Password" type="password2" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          <p><a href=#>Forgot Password</a></p>
+          <p><a href=#>Forgot Username</a></p>
+          <h4>Reset email will be sent to you.</h4>
+
+    </form>
+  </div>
+    <div class="container">  
+      <form id="contact" action="" method="post">
+          <center><h3>Sign Up</h3></center>
+            <fieldset>
+              <input placeholder="Create username" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+               <fieldset>
+              <input placeholder="Create Password" type="password" tabindex="2" required>
+            </fieldset>
+               <fieldset>
+              <input placeholder="Confirm Password" type="password" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+    </form>
+  </div>
+
+
+ 
+
+</div></center>
+
+    <!--<div id="footertext"><p class="foottext">Last Bot. All rights reserved 2017.</p></div>-->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
