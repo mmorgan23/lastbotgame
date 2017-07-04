@@ -12,6 +12,8 @@
 
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
   <title>Last Bot - Level 1</title>
 
 </head>
@@ -20,37 +22,43 @@
 
 <center><div id="wrapper">
 
-	<div class="levelone"></div>
+	<div class="levelone"><img class="welcome" src="../WelcomeToNY.png"></div>
 
 	<div id="header">
 		<div class="healthbar"></div>
-		<div class="alert"></div>
+		<center><div class="alert"><h3 class="text">START GAME - PRESS RIGHT ARROW -></h3></div></center>
 		<div class="timer"></div>
 	</div>
 
 	<div id="screen"><img class="background" src="../NYBackground2.png">
-		<div class="lastbot">
+		
+		<div id="lastbot" class="lastbot">
+		<img class="lb" src="../LastBot-trans.png">
+		<img class="slime" src="../lbslime.png">
+		</div>
+
 		<div class="botslime"></div>
 		<div class="execclones"></div>
 		<div class="cloneshot"></div>
-		<div class="ceoclone"></div>
+		<div class="bossclone"></div>
+		<div class="bossshot"></div>
 		<div class="human"></div>
 	</div>
 
 	<div id="footer">
-		<div class="logo"></div>
-		<div class="rightstext"></div>
-		<div class="controls"></div>
-		<div class="pausebutton"></div>
-		<div class="exitbutton"></div>
+		<div class="logo"><img class="logo1" src="../lastbot-logo.png"><p class="right">All rights reserved 2017.</p></div>
+		<div class="controls"><img class="controls" src="../Controls.png">
+			</div>
+		<div class="pausebutton"><img class="pause" src="../pause-button.png"></div>
+		<div class="exitbutton"><img class="exit" src="../exit-button.png"></div>
 	</div>
 
 	
 	
-	<div id="footertext"><p class="foottext">Last Bot. All rights reserved 2017.</p></div>
+	<div id="footertext"></div>
 </div></center>
 
-
+<script src="../src/script.js"></script>
 </body>
 
 </html>

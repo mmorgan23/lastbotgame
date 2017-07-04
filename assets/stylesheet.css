@@ -14,7 +14,7 @@ margin-left: -16px;
 
 #header {
 	display: block;
-	height: 50px;
+	height: 55px;
 	width: auto;
 	background-color: #767272;
 	
@@ -34,9 +34,10 @@ margin-left: -16px;
 	display: block;
 	height: auto;
 	width: auto;
-	max-height: 270px;
-	min-height: 160px;
+	max-height: 250px;
+	min-height: 150px;
 	background-color: #A7B1A1;
+	margin-top: -40px;
 
 }
 
@@ -81,3 +82,96 @@ max-width: 630px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+.lb {
+	width: auto;
+	height: 170px;
+	position: absolute;
+    zIndex: 1000;
+    margin-top: -180px;
+
+}
+
+.controls {
+	width: auto;
+	height: auto;
+	max-height: 75px;
+	margin-top: 35px;
+	margin-left: 50px;
+	margin-right: 100px;
+
+}
+
+.logo1 {
+	width: auto;
+	height: auto;
+	max-height: 50px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 40px;
+}
+
+.right {
+	float: left;
+	margin-top: 100px;
+	margin-left: -162px;
+}
+
+.pause {
+	width: auto;
+	height: 50px;
+	float: right;
+	margin-right: 100px;
+	margin-top: -30px;
+}
+
+.exit {
+	width: auto;
+	height: 50px;
+	float: right;
+	margin-right: -120px;
+	margin-top: -30px;
+}
+
+
+
+.slime {
+	width: auto;
+	height: 25px;
+	position: absolute;
+    zIndex: 1000;
+    margin-top: -50px;
+
+}
+
+.text {
+	margin-top: 10px;
+	align-items: center;
+	padding-top: 15px;
+	color: #B7FF91;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  	font-weight:500;
+  	font-size: 20px;
+}
+
+h3 {
+	margin-top: 10px;
+	align-items: center;
+	padding-top: 15px;
+	color: #B7FF91;
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  	font-weight:500;
+  	font-size: 20px;
+}
+
+.welcome {
+	width: auto;
+	height: 350px;
+	position: absolute;
+    zIndex: 1000;
+    margin-top: 110px;
+}
+
+.levelone {
+	margin-right: 500px;
+}
